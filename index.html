@@ -2,31 +2,73 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JalilBNH - About</title>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
+
+    <!--header-->
     <header class="site-header">
-        <div class="container">
+        <div class="container header-inner">
             <a class="brand" href="index.html">JalilBNH</a>
-            <nav id="nav" class="nav">
-                <a href="index.html" data-page="about">About</a>
+            <nav id="nav" class="nav" aria-label="Navigation principale">
+                <a href="index.html">About</a>
             </nav>
-            <button id="navToggle" class="nav-toggle" aria-label="Menu">☰</button>
+            <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="nav"
+                aria-label="Menu">☰</button>
         </div>
     </header>
 
+    <!--hero-->
     <section class="hero">
-        <div class="hero-content">
-            <h1>Jalil BENHIBA</h1>
-            <p>Computer vision intern @ CEA-List</p>
+        <div class="hero-overlay">
+            <div class="hero-text">
+                <h1>Jalil BENHIBA</h1>
+                <p>Computer vision intern @ CEA-List</p>
+                <a href="#about" class="btn">Contact</a>
+            </div>
         </div>
     </section>
 
-    <section class="hero"></section>
+    <!--about & news-->
+    <main>
+        <section class="about" id="about">
+            <div class="container about-grid">
+                <article class="panel">
+                    <h2>About me</h2>
+                    <p>
+                        Fresh graduate from a Signal & Image processing master's degree at Aix-Marseille University, I'm
+                        motivated to keep moving forward in research, especially at the instersection AI, computer
+                        vision and 3D.
+                    </p>
+
+                    <p>
+                        My experiences so far have given me a good understanding of how the research world works. What I
+                        enjoy the most is diving into a topic, learning
+                        from existing methods, exploring new approachs, and sharing my discoveries with others. That's
+                        what motivates me to do a PhD.
+                    </p>
+                    <p>
+                        I'm mainly looking for a PhD opportunity in 3D scene understanding for autonomous driving.
+                        That's said, I'm also open to other research direction surch as scenario generation for
+                        autonomous navigation, world models applied to 3D representations, or physics-constrained 3D
+                        generation.
+                    </p>
+                </article>
+
+                <aside class="panel">
+                    <h2>News</h2>
+                    <ul id="news-list"></ul>
+                    <a href="#" class="btn">More</a>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
