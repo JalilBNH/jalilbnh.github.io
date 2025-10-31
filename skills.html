@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JalilBNH - Skills</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">JalilBNH</a>
+      <nav id="nav" class="nav" aria-label="principalNav">
+        <a href="index.html">About</a>
+        <a href="experiences.html">Experiences</a>
+        <a href="projects.html">Projects</a>
+        <a class="active" href="skills.html">Skills</a>
+        <a href="education.html">Education & Certifications</a>
+      </nav>
+      <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="Skills" class="section">
+      <div class="container">
+        <h1>Skills</h1>
+
+        <!-- groupes rendus par JS -->
+        <div id="skillsGroups" class="skills-groups"></div>
+
+        <!-- fallback -->
+        <p id="skillsEmpty" class="muted" style="display:none;">No data for now.</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/skills.js"></script>
+</body>
+</html>

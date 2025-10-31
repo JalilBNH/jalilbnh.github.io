@@ -1,0 +1,20 @@
+{
+  "sections": [
+    {
+      "title": "Programming Languages",
+      "items": ["Python", "C", "C++", "LaTeX"]
+    },
+    {
+      "title": "Framework / Libraries",
+      "items": ["Tensorflow", "PyTorch", "Detectron2", "NeRFStudio", "Pandas", "Numpy", "SciPy", "OpenCV"]
+    },
+    {
+      "title": "Tools / Software",
+      "items": ["Git", "Docker", "Amazon AWS", "Tensorboard", "Nuclio", "CVAT", "Roboflow", "Metashape", "Blender"]
+    },
+    {
+      "title": "Spoken Languages",
+      "items": ["French (Native)", "English (TOEIC: 845/950)", "Spanish (High School Level)"]
+    }
+  ]
+}

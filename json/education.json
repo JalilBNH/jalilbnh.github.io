@@ -1,0 +1,38 @@
+[
+  {
+    "startDate": "2023-09",
+    "endDate": "2025-09",
+    "degree": "Master’s Degree in Signal and Image Processing - Computer Vision track",
+    "university": "Aix-Marseille University & Centrale Mediteranee",
+    "location": "Marseille, France",
+    "courses": ["Linear Algebra", "Statistics and Probability", "Machine Learning", "Data Science", "Algorithms", "Signal Processing", "Image Processing", "Computer Graphics",
+    "Photogrammetry", "Video Analysis", "Computational Geometry"]
+  },
+  {
+    "startDate": "2022-09",
+    "endDate": "2023-09",
+    "degree": "Bachelor's Degree in Electrical Engineering",
+    "university": "Aix-Marseille University",
+    "location": "Marseille, France",
+    "courses": ["Computer Engineering", "Signal and Measurement Processing", "Systems Modeling", "Automation and Control", "Power and Energy Systems", "Electrical Machines",
+  "Software and Simulation", "Integrated Project"]
+  },
+  {
+    "startDate": "2021-09",
+    "endDate": "2022-09",
+    "degree": "Bachelor's Degree in Applied Physics",
+    "university": "Aix-Marseille University",
+    "location": "Marseille, France",
+    "courses": ["Mathematics and Modelling", "Numerical Analysis", "Instrumentation and Measurement", "Metrology",
+  "Applied Electronics", "Automation and Systems", "Optics", "Fluid Mechanics", "Electromechanics"]
+  },
+  {
+    "startDate": "2019-09",
+    "endDate": "2021-09",
+    "degree": "Associate Degree in Electrical Engineering",
+    "university": "Aix-Marseille University",
+    "location": "Marseille, France",
+    "courses": ["Electrical Engineering", "Computer Engineering", "Embedded Systems", "Electronics", "Automation and Control", "Systems integration",
+  "Reliability and Probability", "Physics and Electromagnetism", "Communication and Business"]
+  }
+]

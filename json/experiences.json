@@ -1,0 +1,60 @@
+[
+  {
+    "startDate": "2025-04",
+    "endDate": "2025-10",
+    "title": "Computer vision research intern - CEA LVML",
+    "location": "Saclay, France",
+    "intro": "<b><i>3D implicit scene understanding</b></i>",
+    "tasks": [
+      "Studying whether neural fields can serve as <b>interpretable implicit 3D scene representations</b>",
+      "<b>State of the art</b> of the existing approaches to interpreting Neural Fields",
+      "Research and implementation of a (confidential) method aimed at <b>making Neural Fields interpretable</b> and directly <b>improving their interpretability</b>",
+      "Implementation of a <b>multi-scene training approach</b> to transition to an interpretation method that can <b>generalize to a range of unseen scenes</b> during training."
+    ],
+    "skills": ["Python", "PyTorch", "NeRFStudio", "Git", "Tensorboard"],
+    "mentors": [
+      {"name": "Doriand Petit (CEA-LVML)", "email": "doriand.petit@cea.fr"},
+      {"name": "Steve Bourgeois (CEA-LVML)", "email": "Steve.BOURGEOIS@cea.fr"}, 
+      {"name": "Vincent Gay-Bellile (@ CEA-LVML)","email": "Vincent.gay.bellile@cea.fr"},
+      {"name": "Florian Chabot (CEA-LVA)", "email": "Florian.chabot@cea.fr"},
+      {"name": "Guillaume Lapouge (CEA-LVA)", "email": "Guillaume.LAPOUGE@cea.fr"}
+    ]
+  },
+  {
+    "startDate": "2024-05",
+    "endDate": "2024-08",
+    "title": "Computer vision research intern  - CNRS LIS",
+    "location": "Marseille, France",
+    "intro": "<b><i>3D Archeological Scene Segmentation</i></b>",
+    "tasks": [
+      "Interdisciplinary project between archaeology and computer vision. The objective was to find an approach for <b>segmenting</b> stone blocks in <b>3D models</b> of archaeological sites.",
+      "<b>Training</b> of an <b>instance segmentation</b> model using <b>Detectron2</b> to detect stone blocks in archaeological site images. Model optimization through data augmentation techniques, with performance metrics visualized in TensorBoard",
+      "Transposition of 2D segmentation results into 3D to automate stone-by-stone 3D documentation using <b>photogrammetry</b> and <b>geometry</b> based methods.", 
+      "Research & development of a methode allowing the meaning of the segmentation mask in 3D",
+      "<b>Deployment</b> of the models on the annotation tool CVAT"
+    ],
+    "link": "https://github.com/JalilBNH/Vrak3D",
+    "skills": ["Python", "Metashape", "Detectron2", "Git", "Tensorflow", "Tensorboard"],
+    "mentors": [
+      {"name": "Mohamed-motasem NAWAF (LIS)", "email": "mohamad-motasem.NAWAF@univ-amu.fr"}
+    ]
+  },
+  {
+    "startDate": "2021-04",
+    "endDate": "2021-07",
+    "title": "Electrical engineering intern  - SmartFuture",
+    "location": "Marseille, France",
+    "intro": "<b><i>Design of a Raspberry Pi controlled test electrical panel</i></b>",
+    "tasks": [
+      "<b>Design</b> of a test electrical panel in order to evaluate the electromagnetic field sensor, Stick-n-Sense",
+      "Study, development, and wiring of an electrical panel with 9 circuit breakers, a set of relays, and energy meters controlled via <b>Modbus</b>",
+      "Programmed a <b>Raspberry Pi</b> in <b>C</b> to run lighting scenarios given by a CSV file"
+    ],
+    "link": "https://github.com/JalilBNH/SmartFutureApp",
+    "skills": ["C/C++", "Modbus", "Raspberry Pi", "Electrical Wiring"],
+    "mentors": [
+      {"name": "Paul Bertrand (SmartFuture founder)", "email": "p.bertrand@smartfuture.fr"},
+      {"name": "Remy Vauche (Aix-Marseille University)", "email": "remy.VAUCHE@univ-amu.fr"}
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JalilBNH - Education & Certifications</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">JalilBNH</a>
+      <nav id="nav" class="nav" aria-label="principalNav">
+        <a href="index.html">About</a>
+        <a href="experiences.html">Experiences</a>
+        <a href="projects.html">Projects</a>
+        <a href="skills.html">Skills</a>
+        <a class="active" href="education.html">Education & Certifications</a>
+      </nav>
+      <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== ÉDUCATIONS ===== -->
+    <section id="Education" class="section">
+      <div class="container">
+        <h2>Education</h2>
+        <ul id="educationList" class="education-list"></ul>
+        <p id="educationEmpty" class="muted" style="display:none;">No Data for now.</p>
+      </div>
+    </section>
+
+    <!-- ===== CERTIFICATIONS ===== -->
+    <section id="Certifications" class="section">
+      <div class="container">
+        <h2>Certifications</h2>
+        <ul id="certList" class="cert-grid"></ul>
+        <p id="certEmpty" class="muted" style="display:none;">No Data for now.</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/education.js"></script>
+</body>
+</html>

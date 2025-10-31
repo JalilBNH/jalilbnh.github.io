@@ -29,23 +29,23 @@ if (navBtn && navMenu) {
 
     const dateDiv = document.createElement('div');
     dateDiv.className = 'news-date';
-    let jour = '', mois = '', annee = '';
+    let day = '', month = '', year = '';
 
     if (news.date) {
       const d = new Date(news.date);
       if (!isNaN(d)) {
-        jour = String(d.getDate()).padStart(2, '0');
-        mois = d.toLocaleString('en-US', { month: 'short' }).toUpperCase();
-        annee = d.getFullYear();
+        day = String(d.getDate()).padStart(2, '0');
+        month = d.toLocaleString('en-US', { month: 'short' }).toUpperCase();
+        year = d.getFullYear();
       } else {
         mois = news.date;
       }
     }
 
     dateDiv.innerHTML = `
-      <div class="day">${jour}</div>
-      <div class="month">${mois}</div>
-      <div class="year">${annee}</div>
+      <div class="day">${day}</div>
+      <div class="month">${month}</div>
+      <div class="year">${year}</div>
     `;
 
     const contentDiv = document.createElement('div');
@@ -59,10 +59,10 @@ if (navBtn && navMenu) {
       a.href = news.link;
       a.target = '_blank';
       a.rel = 'noopener';
-      a.textContent = news.title || 'Sans titre';
+      a.innerHTML = news.title || 'No title';
       titleDiv.appendChild(a);
     } else {
-      titleDiv.textContent = news.title || 'Sans titre';
+      titleDiv.innerHTML = news.title || 'No title';
     }
 
     const tagsDiv = document.createElement('div');
@@ -72,7 +72,7 @@ if (navBtn && navMenu) {
       news.tags.forEach(tag => {
         const span = document.createElement('span');
         span.className = 'tag';
-        span.textContent = tag;
+        span.innerHTML = tag;
         tagsDiv.appendChild(span);
       });
     }
@@ -85,7 +85,6 @@ if (navBtn && navMenu) {
     list.appendChild(li);
   }
 
-  // see more
   function renderNext(n) {
     const next = items.slice(shown, shown + n);
     next.forEach(renderItem);
@@ -96,8 +95,7 @@ if (navBtn && navMenu) {
     }
   }
 
-  // get news from json 
-  fetch('news.json')
+  fetch('json/news.json')
     .then(res => res.json())
     .then(data => {
       items = Array.isArray(data) ? data : [];
@@ -119,7 +117,7 @@ if (navBtn && navMenu) {
       renderNext(firstLoad);
     })
     .catch(err => {
-      console.log('Erreur chargement news:', err);
+      console.log('Error Loading:', err);
       if (msgEmpty) msgEmpty.style.display = 'block';
       if (btnMore) btnMore.style.display = 'none';
     });

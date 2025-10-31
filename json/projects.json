@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Multimodal fusion for emotion recognition",
+    "description": "Evaluation of the differents approach to recognize emotion captured by a RGB-Depth kinect camera",
+    "points": [
+      "<b>Cleaning</b> and <b>preprocessing</b> of a RGB-Depth facial emotion dataset using YOLO-Face",
+      "State of the art of the differents architectures used in emotion classification",
+      "<b>Pretraining EfficientNet</b> model on AffectNet RGB images and synthetic depth maps generated with <b>Depth-Anything v2</b>",
+      "<b>Evaluation</b> of the different fusion strategies <b>(early concatenation, late attention)</b>"
+    ],
+    "skills": ["Python", "Tensorflow", "Amazon AWS"],
+    "link": "https://github.com/JalilBNH/emotion-classification"
+  },
+  {
+    "title": "Football Vision: Data extraction from amateur football matches",
+    "description": "Collect player data from amateur football matches using a single-camera <i>(exploratory project)</i>",
+    "points": [
+      "<b>Annotation</b> of a <b>custom dataset</b> with <b>CVAT</b> and pre-trained YOLOv8",
+      "Implementation of players identification through <b>jersey number recognition</b>",
+      "State of the art of the <b>RNN architectures</b> and datasets for <b>action recognition</b>"
+    ],
+    "skills": ["Python", "Dataset annotation", "YOLO"],
+    "link": "https://github.com/JalilBNH/football-data-extraction"
+  },
+  {
+    "title": "Deployment of Deep Learning Functions",
+    "description": "Development and deployment of deep learning inference functions as serverless services on the cloud",
+    "points": [
+      "<b>Deployment</b> of a <b>Nuclio platform</b> (capable of receiving HTTP requests) using <b>Docker</b>",
+      "Integration of Mask R-CNN and YOLOv5 models",
+      "Development of a Web platform that allows image uploads and communication with the Nuclio platform using the Flask library"
+    ],
+    "skills": ["Python", "Nuclio", "Docker"],
+    "link": "https://github.com/JalilBNH/serverless-model-deployment"
+  }
+]

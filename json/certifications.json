@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Recurrent Neural Networks",
+    "image": "img/certifications/deeplearning-ai.png",
+    "skills": ["PyTorch", "Artificial Neural Networks", "Deep Learning", "Tensorflow", "Generative AI", "Generative AI", "Natural Language Processing",
+  "Natural Language Processing", "Supervised Learning", "Large Language Modeling"],
+    "link": "https://www.coursera.org/account/accomplishments/verify/E6TKT8QZC73L"
+  },
+  {
+    "name": "Convolutional Neural Networks",
+    "image": "img/certifications/deeplearning-ai.png",
+    "skills": ["Machine Learning", "Algorithms", "Artificial Neural Networks", "Deep Learning", "Tensorflow",
+  "Data Processing", "Computer Vision", "Applied Machine Learning", "Image Analysis"],
+    "link": "https://www.coursera.org/account/accomplishments/verify/Q53Z7DNLRSK9"
+  },
+  
+  {
+    "name": "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization",
+    "image": "img/certifications/deeplearning-ai.png",
+    "skills": ["Tensorflow", "Performance Tuning", "Supervised Learning", "Applied Machine Learning", "Machine Learning Algorithms"],
+    "link": "https://www.coursera.org/account/accomplishments/verify/TH946CV32C2M"
+  },
+  {
+    "name": "Structuring Machine Learning Projects",
+    "image": "img/certifications/deeplearning-ai.png",
+    "skills": ["Performance Tuning", "Debugging", "Data-Driven Decision Making", "Applied Machine Learning"],
+    "link": "https://www.coursera.org/account/accomplishments/verify/EGBUUPRTLKAQ"
+  },
+  {
+    "name": "Neural Networks & Deep Learning",
+    "image": "img/certifications/deeplearning-ai.png",
+    "skills": ["Deep Learning", "Supervised Learning", "Calculus", "Machine Learning", "Linear Algebra", "Python"],
+    "link": "https://www.coursera.org/account/accomplishments/verify/9NULZ4CVXV9G"
+  },
+  {
+    "name": "Learn Python 3 Course",
+    "image": "img/certifications/codeacademy.png",
+    "skills": ["Python programming"],
+    "link": "https://www.codecademy.com/profiles/JalilB13"
+  },
+  {
+    "name": "Learn C Course",
+    "image": "img/certifications/codeacademy.png",
+    "skills": ["C programming"],
+    "link": "https://www.codecademy.com/profiles/JalilB13"
+  }
+]
