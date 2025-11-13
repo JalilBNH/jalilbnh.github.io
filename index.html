@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JalilBNH - Experiences</title>
+    <title>JalilBNH</title>
     <link rel="stylesheet" href="css/style.css" />
 </head>
 
@@ -13,7 +13,24 @@
     <!--header-->
     <header class="site-header">
         <div class="container header-inner">
-            <a class="brand" href="index.html">JalilBNH</a>
+
+            <div class="brand-block">
+                <a class="brand" href="index.html">JalilBNH</a>
+                <div class="header-socials">
+                    <a href="mailto:jalil.bnh@outlook.fr" aria-label="Email">
+                        <img src="img/icons/mail.svg" alt="Email">
+                    </a>
+                    <a href="https://www.linkedin.com/in/jalil-benhiba-2365681b8/" target="_blank" rel="noopener"
+                        aria-label="LinkedIn">
+                        <img src="img/icons/linkedin.svg" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/JalilBNH" target="_blank" rel="noopener" aria-label="GitHub">
+                        <img src="img/icons/github.svg" alt="GitHub">
+                    </a>
+                </div>
+            </div>
+
+
             <nav id="nav" class="nav" aria-label="principalNav">
                 <a href="index.html">About</a>
                 <a href="experiences.html">Experiences</a>
@@ -21,10 +38,12 @@
                 <a href="skills.html">Skills</a>
                 <a href="education.html">Education & Certifications</a>
             </nav>
-            <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Menu">☰
-            </button>
+
+            <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="nav"
+                aria-label="Menu">☰</button>
         </div>
     </header>
+
     <!--hero-->
     <section class="hero">
         <div class="hero-overlay">
@@ -43,7 +62,7 @@
                 <h2>About me</h2>
                 <p>
                     Fresh graduate from a Signal & Image processing master's degree at Aix-Marseille University, I'm
-                    motivated to keep moving forward in research, especially at the instersection AI, computer
+                    motivated to keep moving forward in research, especially at the instersection of AI, computer
                     vision and 3D.
                 </p>
                 <p>
@@ -66,11 +85,11 @@
             <div class="container">
                 <h2>News</h2>
                 <ul id="newsList" class="news-list"></ul>
-                
+
                 <p id="newsEmpty" class="muted" style="display:none;">No news for now</p>
                 <button id="newsShowMore" class="btn" type="button">See more</button>
             </div>
-            
+
         </section>
     </main>
 

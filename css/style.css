@@ -32,21 +32,64 @@ img {
 .site-header {
   border-bottom: 1px solid var(--border);
   background: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 1200;
 }
 
 .header-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0;
-  gap: 1rem;
+  padding: 1rem 2rem;
+  flex-wrap: wrap;
+}
+
+.brand-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
 }
 
 .brand {
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   text-decoration: none;
   color: var(--text);
+}
+
+.header-socials {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.header-socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border: 1px solid var(--text);
+  border-radius: var(--radius);
+  background: var(--bg);
+  transition: background 0.2s, transform 0.2s;
+}
+
+.header-socials a:hover {
+  background: var(--text);
+  transform: scale(1.05);
+}
+
+.header-socials img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  filter: invert(0);
+}
+
+.header-socials a:hover img {
+  filter: invert(1);
 }
 
 .nav {
@@ -56,14 +99,15 @@ img {
 }
 
 .nav a {
-  padding: .5rem;
+  padding: 0.5rem;
   border-radius: var(--radius);
   color: var(--text);
   text-decoration: none;
+  transition: background 0.2s, color 0.2s;
 }
 
-.nav a.active,
-.nav a:hover {
+.nav a:hover,
+.nav a.active {
   background: var(--text);
   color: var(--bg);
 }
@@ -72,10 +116,46 @@ img {
   display: none;
   background: none;
   border: 1px solid var(--border);
-  padding: .5rem .75rem;
+  padding: 0.5rem 0.75rem;
   border-radius: var(--radius);
   cursor: pointer;
 }
+
+/* --- Responsive --- */
+@media (max-width: 720px) {
+  .header-inner {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .nav {
+    display: none;
+    position: absolute;
+    right: 1rem;
+    top: 4rem;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    z-index: 1000;
+  }
+
+  .nav.open {
+    display: flex;
+  }
+
+  .nav-toggle {
+    display: block;
+  }
+
+  .brand-block {
+    align-items: flex-start;
+  }
+}
+
 
 /* hero */
 .hero {
