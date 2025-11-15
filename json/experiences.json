@@ -11,14 +11,7 @@
       "Research and implementation of a (confidential) method aimed at <b>making Neural Fields interpretable</b> and directly <b>improving their interpretability</b>",
       "Implementation of a <b>multi-scene training approach</b> to transition to an interpretation method that can <b>generalize to a range of unseen scenes</b> during training."
     ],
-    "skills": ["Python", "PyTorch", "NeRFStudio", "Git", "Tensorboard"],
-    "mentors": [
-      {"name": "Doriand Petit (CEA-LVML)", "email": "doriand.petit@cea.fr"},
-      {"name": "Steve Bourgeois (CEA-LVML)", "email": "Steve.BOURGEOIS@cea.fr"}, 
-      {"name": "Vincent Gay-Bellile (@ CEA-LVML)","email": "Vincent.gay.bellile@cea.fr"},
-      {"name": "Florian Chabot (CEA-LVA)", "email": "Florian.chabot@cea.fr"},
-      {"name": "Guillaume Lapouge (CEA-LVA)", "email": "Guillaume.LAPOUGE@cea.fr"}
-    ]
+    "skills": ["Python", "PyTorch", "NeRFStudio", "Git", "Tensorboard"]
   },
   {
     "startDate": "2024-05",
@@ -34,10 +27,7 @@
       "<b>Deployment</b> of the models on the annotation tool CVAT"
     ],
     "link": "https://github.com/JalilBNH/Vrak3D",
-    "skills": ["Python", "Metashape", "Detectron2", "Git", "Tensorflow", "Tensorboard"],
-    "mentors": [
-      {"name": "Mohamed-motasem NAWAF (LIS)", "email": "mohamad-motasem.NAWAF@univ-amu.fr"}
-    ]
+    "skills": ["Python", "Metashape", "Detectron2", "Git", "Tensorflow", "Tensorboard"]
   },
   {
     "startDate": "2021-04",
@@ -51,10 +41,6 @@
       "Programmed a <b>Raspberry Pi</b> in <b>C</b> to run lighting scenarios given by a CSV file"
     ],
     "link": "https://github.com/JalilBNH/SmartFutureApp",
-    "skills": ["C/C++", "Modbus", "Raspberry Pi", "Electrical Wiring"],
-    "mentors": [
-      {"name": "Paul Bertrand (SmartFuture founder)", "email": "p.bertrand@smartfuture.fr"},
-      {"name": "Remy Vauche (Aix-Marseille University)", "email": "remy.VAUCHE@univ-amu.fr"}
-    ]
+    "skills": ["C/C++", "Modbus", "Raspberry Pi", "Electrical Wiring"]
   }
 ]
